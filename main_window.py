@@ -1,15 +1,7 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import*
 
-def swich_screen():
-    if btn_answer.text()== "Відповісти":
-        qwestion_group.hide()
-        answer_group.show()
-        btn_answer.setText("Наступне питання")
-    else:
-        qwestion_group.show()
-        answer_group.hide()
-        btn_answer.setText("Відповісти")
+
 
 btn_menu = QPushButton('Меню')
 btn_sleep = QPushButton("Відпочити")
@@ -84,3 +76,7 @@ line.addLayout(line3,stretch=6)
 line.addStretch(1)
 line.addLayout(line4,stretch=3)
 line.addStretch(1)
+
+
+
+
